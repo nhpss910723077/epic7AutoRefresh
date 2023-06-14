@@ -16,7 +16,7 @@ maxTime = int(input("輸入最大次數: "))
 print("按下 F1 結束程式");
 keyboard.on_press(ExitControl)
 
-# 连接夜神模拟器
+# 連接夜神模擬器
 # simulator = u2.connect('127.0.0.1:62001')
 simulator = u2.connect()
 
